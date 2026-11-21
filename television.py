@@ -26,7 +26,6 @@ class Television:
         """
         if self.__status:
             self.__muted = not self.__muted
-
     def channel_up(self):
         """
         Increases the television channel by one
@@ -62,7 +61,6 @@ class Television:
         """
         Decreases the television volume by one and unmutes
         stops at MIN_VOLUME.
-        :return:
         """
         if self.__status:
             self.__muted = False
